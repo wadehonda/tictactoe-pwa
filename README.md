@@ -2,7 +2,7 @@
 
 In addition to behave as a Web App, A Progressive Web App (PWA) can also be accessed offline after the first access with network connection, which would make it cached in your device. You may add it to the home screen of your device as a launch icon (this is called PWA installation that makes its access similar to installed native mobile app).
 
-You may convert an existing React Web App into a PWA through the following steps (lets take the [TicTacToe Web app](https://github.com/wadehonda/tictactoe/tree/master) as an example):
+You may convert an existing React Web App into a PWA through the following steps (let's take the [TicTacToe Web app](https://github.com/wadehonda/tictactoe/tree/master) as an example):
 
 1. Create a React App with a PWA Template:
 
