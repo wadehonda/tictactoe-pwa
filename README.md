@@ -52,7 +52,10 @@ You may convert an existing React Web App into a PWA through the following steps
 
    `serve -s build`
 
+   You may try the PWA app at [https://wadehonda.github.io/tictactoe-pwa/](https://wadehonda.github.io/tictactoe-pwa/)
+
 7. You may Analyse the PWA App using Chrome DevTools
 
    You may analyse the performance, accessibility, best practices, SEO, and PWA aspects of your app using the Chrome DevTools by selecting the `Inspect` option from the right-click menu, and then selecting the `Lighthouse` tab (more tabs in the Inspect window can be found by clicking on `>>` tab), selecting the `Navigation` mode and `Mobile` device, making all the categories in Lighthouse window ticked, and then clicking `Analyze page load` button. A report with scores on all the checked categories will be displayed. You may modify your app based on the feedback to improve it in multiple refinement and analysis cycles.
+
    To learn more, visit [https://cra.link/PWA](https://cra.link/PWA)
