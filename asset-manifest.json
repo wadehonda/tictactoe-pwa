@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tictactoe-pwa/static/css/main.22941023.css",
-    "main.js": "/tictactoe-pwa/static/js/main.c764cec3.js",
+    "main.css": "/tictactoe-pwa/static/css/main.a2f17eb1.css",
+    "main.js": "/tictactoe-pwa/static/js/main.ad61bfef.js",
     "static/js/787.d3e4791e.chunk.js": "/tictactoe-pwa/static/js/787.d3e4791e.chunk.js",
     "service-worker.js": "/tictactoe-pwa/service-worker.js",
     "index.html": "/tictactoe-pwa/index.html",
-    "main.22941023.css.map": "/tictactoe-pwa/static/css/main.22941023.css.map",
-    "main.c764cec3.js.map": "/tictactoe-pwa/static/js/main.c764cec3.js.map",
+    "main.a2f17eb1.css.map": "/tictactoe-pwa/static/css/main.a2f17eb1.css.map",
+    "main.ad61bfef.js.map": "/tictactoe-pwa/static/js/main.ad61bfef.js.map",
     "787.d3e4791e.chunk.js.map": "/tictactoe-pwa/static/js/787.d3e4791e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22941023.css",
-    "static/js/main.c764cec3.js"
+    "static/css/main.a2f17eb1.css",
+    "static/js/main.ad61bfef.js"
   ]
 }
