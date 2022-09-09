@@ -14,7 +14,7 @@ You may convert an existing React Web App into a PWA through the following steps
 
 3. Configure the Web Application Manifest
 
-   In the `public` directory, there is a `manifect.json` file, we may modify it with our own app name and our needed configurations, e.g.,
+   In the `public` directory, there is a `manifect.json` file, you may modify it with your own app name and your needed configurations, e.g.,
 
    ```
     {

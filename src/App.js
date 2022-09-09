@@ -1,12 +1,12 @@
 import { useState, useRef } from "react";
-import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
+import { BsFillCaretLeftFill, BsFillCaretRightFill, BsFillGrid3X3GapFill} from "react-icons/bs";
 
 function Square(props) {
   return (
     <button
       style={{
         color: props.lastSquare ? "red" : "black",
-        background: props.winningSquare ? "green" : "white",
+        background: props.winningSquare ? "springgreen" : "white",
       }}
       className="square"
       onClick={props.onChange}
@@ -35,7 +35,7 @@ function Board(props) {
   };
 
   const content = [0, 1, 2].map((x) => rowLayout(x));
-  return <div>{content}</div>;
+  return <div className="game-board">{content}</div>;
 }
 
 export default function Game() {
@@ -113,8 +113,8 @@ export default function Game() {
     const desc = move ? "#" + move + " in square " + ls : "Go to game start";
     return (
       <li key={move}>
-        <button
-          style={{ color: lastSquare === ls ? "red" : "black" }}
+        <button className="game-button"
+          style={{ height: "22px", color: lastSquare === ls ? "red" : "white" }}
           onClick={() => goTo(move)}
         >
           {desc}
@@ -125,36 +125,33 @@ export default function Game() {
 
   return (
     <div className="game">
-      <div className="game-board">
-        <h3>TicTacToe PWA</h3>
-        <Board
+      <p className="game-info game-title">TicTacToe PWA</p>
+      <Board
           lastSquare={lastSquare}
           winningSquares={winningSquares}
           squares={currentSquares}
           onChange={(i) => handleChange(i)}
-        />
-      </div>
-      <div className="game-info">
-        <div>{status}</div>
+      />
+      <div className="game-controls">
+        <div><p className="game-info">{status}</p></div>
         {end.current && (
           <div>
-            <div>
-              <button onClick={() => reset()}>New game</button>
-            </div>
-            <div>
-              <p>Replay:</p>
-              <button onClick={() => prev()}>
+              <p className="game-info">Replay or New game</p>
+              <button className="game-button"  onClick={() => prev()}>
                 <BsFillCaretLeftFill />
                 Back
               </button>
-              <button onClick={() => next()}>
+              <button className="game-button"  onClick={() => next()}>
                 Forward
                 <BsFillCaretRightFill />
               </button>
-            </div>
+              <button className="game-button" onClick={() => reset()}>
+                <BsFillGrid3X3GapFill />
+                 New game
+                </button>
 
             <div>
-              <ol>{moves}</ol>
+              <ul style={{color: "white"}}>{moves}</ul>
             </div>
           </div>
         )}
