@@ -52,7 +52,9 @@ You may convert an existing React Web App into a PWA through the following steps
 
    `serve -s build`
 
-   You may try the PWA app at [https://wadehonda.github.io/tictactoe-pwa/](https://wadehonda.github.io/tictactoe-pwa/)
+   You may try the PWA app at [https://wadehonda.github.io/tictactoe-pwa/](https://wadehonda.github.io/tictactoe-pwa/) see the attached screenshot of the PWA app.
+
+   <img src="./public/tictactoe-pwa.jpg" alt ="a screen capture of the app" width="256" height="455">
 
 7. You may Analyse the PWA App using Chrome DevTools
 
